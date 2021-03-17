@@ -185,39 +185,48 @@ footer{
                     margin-top:96px;
                     margin-right: 223px;
                 }
-@media (max-width:275px) {
+@media only screen and (max-width: 450px) {
     body {
         background-size: 221%;
+        width: 400px;
     }
     .top_container {
-        width: 900px;
+        width: 400px;
 
     }
     .sec_container {
-        width: 900px;
+        width: 400px;
     }
     .computer {
-        margin-left: 214px;
+        margin-left: 25px;
+    margin-top: 60px;
+    height: 278px;
+    float: left;
+    }
+    .computer2 {
+    padding-top: 100px;
+    height: 260px;
     }
     .function {
-        width: 326px;
-    margin-left: 235px;
+        width: 295px;
+    margin-left: 0px;
     margin-top: 75px;
 }
     .middle_container {
-        width: 900px;
+        width: 400px;
     }
     .fourth_container {
-        width: 900px;
+        width: 400px;
     }
     .img-bar {
-        width: 900px;
+        width: 400px;
     }
     .last_container {
-        width: 900px;
+        width: 400px;
     }
     footer {
-        width: 900px;
+        width: 400px;
     }
+
 
 }
