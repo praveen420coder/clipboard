@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    font-family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree);
+    
+}
+h1, h2, h3, h4, h5, h6{
+    color: #4D565D;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight:600;
+    }
+p{
+    color: #B3B4B6;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight:400;
+   }
+.function {
+    text-align: left;
+    display:inline-block;
+    background-color: #e7e8e96b;
+    padding: 35px;
+   }
+   .computer {
+    margin-left: 400px;
+    margin-top: 60px;
+     height: 350px;
+     float: left;
+    
+   }
+.computer2 {
+    padding-top: 100px;
+}
+.feature {
+    margin-top: 100px;
+}
+.create {
+    border-radius: 5px;
+    padding: 8px;
+    display: inline-block;
+}
+.plain{
+    border-radius: 8px;
+    padding-top: 10px;
+    display:inline-block;
+}
+.sneak {
+    border-radius: 5px;
+    padding: 8px;
+    display:inline-block;
+
+
+}
+.img-bar {
+    padding-top: 100px;
+}
+.img-bar img {
+     padding: 10px;
+     margin: 100px;
+}
+.create:hover{
+    background-color: #8e8b8b2e;
+    display:inline-block;
+    }
+    .plain:hover{
+    background-color: #8e8b8b2e;
+    display:inline-block;
+    }
+    .sneak:hover{
+    background-color: #8e8b8b2e;
+    display:inline-block;
+    }
+.top_container {
+    padding-top: 100px ;
+    padding-bottom: 100px;
+   
+}
+.sec_container {
+    padding-bottom: 100px;
+    height: 100px;
+}
+.middle_container {
+    padding-top: 100px;
+}
+.last_container {
+    margin-top: 100px;
+}
+
+.btn-ios {
+    background-color: #5DCCBB;
+    color: white;
+    width: 180px;
+    border-radius: 40px;
+    border: none;
+    border-bottom: solid 3px #329882;
+    padding: 14px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+}
+.btn-ios:hover {
+    background-color: #2d9787;
+    color: white;
+    width: 180px;
+    padding: 14px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border-radius: 40px;
+    border: none;
+    border-bottom: solid 3px #329882;
+}
+.btn-mac {
+    background-color: #6174FF;;
+    color: white;
+    width: 180px;
+    border-radius: 40px;
+    border: none;
+    border-bottom: solid 3px #329882;
+    padding: 14px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 80px;
+
+}
+.btn-mac:hover {
+    background-color: #2433a7;;
+    color: white;
+    width: 180px;
+    padding: 14px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    border-radius: 40px;
+    border: none;
+    border-bottom: solid 3px #329882;
+}
+.link{
+    display:inline-block;
+    color: #7C7D82;
+    font-family: 'Bai Jamjuree', sans-serif;
+     font-weight:400;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+.link2{
+      padding-top: 30px;
+    }
+   
+footer{
+        margin:0;
+        padding: 0;
+        background-color: #8e8b8b2e;
+        }
+.link-1-div{
+            text-align: left;
+            padding: 32px;
+            display:inline-block;
+            }
+.link-2-div{
+            text-align: left;
+            padding: 32px;
+            display:inline-block;
+            }
+.link-3-div{
+            text-align: left;
+            padding: 32px;
+            display:inline-block;
+            }
+.Fa-Tw{
+                display: inline-block;
+                text-align: right;
+                margin-left: 200px;
+                margin-bottom: 100px;
+
+                
+                }
+        
+.logo2 {
+                    width: 96px;
+                    display: inline-block;
+                    padding: 19px;
+                    padding-left: 100px;
+                    margin-top:96px;
+                    margin-right: 223px;
+                }
+@media (max-width:275px) {
+    body {
+        background-size: 221%;
+    }
+    .top_container {
+        width: 900px;
+
+    }
+    .sec_container {
+        width: 900px;
+    }
+    .computer {
+        margin-left: 214px;
+    }
+    .function {
+        width: 326px;
+    margin-left: 235px;
+    margin-top: 75px;
+}
+    .middle_container {
+        width: 900px;
+    }
+    .fourth_container {
+        width: 900px;
+    }
+    .img-bar {
+        width: 900px;
+    }
+    .last_container {
+        width: 900px;
+    }
+    footer {
+        width: 900px;
+    }
+
+}
