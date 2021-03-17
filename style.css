@@ -189,9 +189,11 @@ footer{
     body {
         background-size: 221%;
         width: 400px;
+       
     }
     .top_container {
         width: 400px;
+        margin-left:15px;
 
     }
     .sec_container {
